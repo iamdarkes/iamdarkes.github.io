@@ -57,6 +57,7 @@
       <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
         <a href="#about" class="mdl-layout__tab is-active">About</a>
         <a href="#skills" class="mdl-layout__tab">Skills</a>
+        <a href="#projects" class="mdl-layout__tab">Projects</a>
         <a href="#contact" class="mdl-layout__tab">Contact</a>
           <!-- <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--4dp mdl-color--accent" id="add">
             <i class="material-icons" role="presentation">add</i>
@@ -168,20 +169,95 @@
               </div>
             </div>
           </section>
-          <!-- C++ & Assembly -->
+          <!-- C++ -->
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
             <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--blue-100 mdl-color-text--white">
               <img src="images/c++.png" width="192">
             </header>
             <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
               <div class="mdl-card__supporting-text">
-                <h4>C++ &amp; Assembly </h4>
-                I have taken university level courses that have allowed me to work with C++ and MIPS Assembly. 
+                <h4>C++</h4>
+                I have taken university level course that have allowed me to work with C++ and I also put that knowledge to work when I was involved in the <a href ="http://www.calpolyngcp.com/about.html" target="_blank">Northrop Gruman Collaboration Project</a>.
+              </div>
+            </div>
+          </section>
+          <!-- Assembly -->
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--white-100 mdl-color-text--white">
+              <img src="images/assembly-logo.jpg" width="192">
+            </header>
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                <h4>Assembly</h4>
+                I have taken two university level hardware courses where I learned MIPS assembly  instruction set. 
               </div>
             </div>
           </section>
         </div>
 
+        <div class="mdl-layout__tab-panel" id="projects">
+          <!-- Victor -->
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--red-100 mdl-color-text--white">
+              <img src="images/victor-logo.png">
+            </header>
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                <h4>Victor</h4>
+                A <a href ="http://brianlouiss.com/" target="_blank">friend</a> and I wanted to learn how to make a messaging app. Brian created the login, sign up process and the messaging features, and I streamlined the login and sign up process, introduced image uploading and implemented push notifications for when users recieve new messages. The app uses different Google Firebase services. I worked with <a href="https://firebase.google.com/docs/storage/">Firebase Storage</a>, <a href="https://firebase.google.com/docs/cloud-messaging/">Firebase Cloud Messaging</a>, and <a href="https://firebase.google.com/docs/database/">Firebase Database</a>. Libraries I used were <a href="https://github.com/Pixplicity/EasyPrefs" target="_blank">EasyPrefs</a>, <a href="https://github.com/google/volley">Volley</a>, <a href="https://github.com/stfalcon-studio/ChatKit">ChatKit</a>, <a href="https://github.com/bumptech/glide">Glide</a> and <a href="https://github.com/google/gson">Gson</a>. Download it from the <a href ="https://play.google.com/store/apps/details?id=com.brianlouiss.victor&hl=en" target="_blank">Google Play Store</a>.
+              </div>
+            </div>
+          </section>
+          <!-- Musicality -->
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--orange-100 mdl-color-text--white">
+              <img src="images/musicality-logo.png" width="192">
+            </header>
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                <h4>Musicality</h4>
+                <a href="http://darkes.me/musicality/" target="_blank">Musicality</a> is 
+                a musician utility app that contains a guitar tuner, metronome and beats per minute calculator. I implemented a feature new to Android 7.1 (API level 25) called app shortcuts that allow users to go straight to a feature in the app. I made a website and I had it published on the <a href="https://play.google.com/store/apps/details?id=com.darkes.musicality&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">Google Play Store</a>. 
+              </div>
+            </div>
+          </section>
+          <!-- Holey Moley -->
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--green-100 mdl-color-text--white">
+              <img src="images/holey-moley-logo.png" >
+            </header>
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                <h4>Holey Moley</h4>
+                A friend and I worked on a game similar to whack-a-mole in an afternoon. The moles appear based on a timer and the push taps on a mole to get points. There are snakes that appear as well and if a user taps on those then they lose a life. The app stores the top three highest scores.
+              </div>
+            </div>
+          </section>
+          <!-- File Uploading Application -->
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--blue-100 mdl-color-text--white">
+              <img src="images/file-upload.png" width="192">
+            </header>
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                <h4>File Uploading Application</h4>
+                I made a Dropbox type application in Javascript that uses <a href="http://expressjs.com/">Express web framework</a> and watches a directory on a local machine and updates changes to Amazon Web Services S3.
+              </div>
+            </div>
+          </section>
+          <!-- Dog Image Recognition -->
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--pink-100 mdl-color-text--white">
+              <img src="images/doge.png" width="192">
+            </header>
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                <h4>Dog Image Recognition</h4>
+                I worked with a team at Cal Poly Pomona's own hackathon - Hackpoly - to make a image recognition site using <a href="https://www.clarifai.com/">Clarifai's API</a> that would determine whether or not image uploaded is a dog or not. 
+              </div>
+            </div>
+          </section>
+        </div>
         <div class="mdl-layout__tab-panel" id="contact">
          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
           <div class="mdl-card mdl-cell mdl-cell--12-col">
